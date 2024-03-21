@@ -1,10 +1,10 @@
-- Bienvenue à tous, je serai votre professeur en langue C. Mon nom est Seth SITA, et je suis passionné par partage de connaissances dans le domaine de la programmation. Avec une expérience pour ainsi dire assez bonne en langage C, je suis ici pour vous guider à travers les complexités de ce langage puissant et fondamental.
+- Bienvenue à tous, je serai votre professeur en langue C. Mon nom est Seth SITA, et je suis passionné par les technologies informatiques et le partage de connaissances dans le domaine de la programmation. Avec une expérience pour ainsi dire assez bonne en langage C, je suis ici pour vous guider à travers les complexités de ce langage puissant et fondamental.
 
-- Il sied de vous dévoiler un peu le concept de ce projet ; nous allons voir ensemble les bases du langages, puis nous pouvons entamer avec des projets.
+- Il sied de vous dévoiler un peu le concept de ce projet ; nous allons voir ensemble les base du langages, et pourquoi pas entamer avec des projets ???.
 
-- Nous allons donc avoir deux principaux dossiers *Courses* et *Projects* qui sera respecitvement pour les cours et nos différents projets.
+- AInsi nous allons donc avoir deux principaux dossiers *Courses* et *Projects* qui sera respecitvement pour les cours et nos différents projets.
 
-- Je pense que dans chaque dossier, je vais intégrer un fichier en **.md** pour tout simplement apporter quelques explications supplémentaires.
+- Je pense que dans chaque dossier, je vais intégrer un fichier en **.md** pour tout simplement apporter quelques explications.
 
 **Nb** : Vos propositions sont les bienvenues pour la réaliser d'un ou plusieurs projets, de plus il risque d'y avoir un dossier supplémentaire.
 
