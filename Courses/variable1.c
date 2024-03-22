@@ -17,6 +17,7 @@ MaVariable1 ; ma_variable1 ; etc...
 
 */
 
+// Ceci est la fonction principale (l'entrée de notre application)
 int main()
 {
     // Déclaration
