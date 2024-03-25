@@ -30,7 +30,8 @@ int main()
     number = 5;
 
     // Fonction permettant d'afficher un message à la console
-    // Elle peut prendre en paramètres permettant d'afficher le contenu de nos variables suivant son code format
+    // Elle peut prendre en paramètres permettant d'afficher le contenu de nos variables
+    // suivant son format (indicateur de conversion)
     printf("La lettre entree est : %c\n", letter);
     printf("Le nombre est : %u\n", number);
     return 0;

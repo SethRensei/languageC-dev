@@ -143,3 +143,21 @@ Voici comment vous pouvez utiliser les constantes en C pour améliorer votre cod
 *Nb* : Il est recommandé d'écrire le nom des constantes en majuscule (surtout avec #define), on peut toute fois y ajouter un underscore (_).
 
 **Remarque :** Pour comprendre parfaitement ce que fait le procésseur et le préprocessing, je vous invite à lire le fichier *processing.md*
+
+## Les pointeurs
+*Voir le fichier pointer.c*
+
+Avant d'entrer dans le vif du sujet, il important de savoir que la notion des pointeurs en programmation n'est pas facile de l'appréhender pour les débutants... Je vous conseillerai de relire à plus reprises cette partie si elle vous semble bien complexe. Notons aussi son importance dans ce langage.
+
+- Un pointeur n'est autre qu'une variable, mais comme son nom l'indique, le pointeur va pointer vers une variable plus précisement pointer (faire référence) vers l'adresse d'une variable.
+- Étant donné que va fonction est de faire référence à l'adresse d'une variable, il a donc accès à l'adresse de la variable à laquelle il pointe et non va valeur (contenu de la variable).
+- Comme le pointeur possède l'adresse d'une variable (n'oublions pas qu'en programmation une variable occupe une adrésse mémoire dans notre machine), ce qui revient à dire qu'affecter une nouvelle valuer à notre pointeur modifiera automatiquement la valeur de notre variable, de cause que le pointeur possède un accès  direct à son adresse.
+
+Exemple : Imaginions que vous avez un appartement, il est naturel que vous possédiez les clés de l'apparte. De l'autre côté je possède aussi les clés de votre apparte, si derrière vous je venais à modifier la position de la table à manger, à votre retour vous allez constater cette modification, ma modification existe car j'ai un accès direct. 
+Pour faire court et bref, à l'appel (votre retour) de la variable la valeur sera modifiée.
+### Affectation et accès
+- `&` : Ce symbole est un opérateur d'adresse nous permetta d'avoir accès à l'adresse d'une variable, nous allons l'utiliser pour affecter un pointeur l'adresse d'une variable.
+- `*` : Ce symoble est un opérateur d'indirection ou de déférencement nous permettra d'accéder à la valeur de la variable, mais sans utiliser ce symbole on aura accès à l'adresse mémoire de la variable. Ce symbole permettra également de spécifier qu'une variable est un pointeur dès sa déclaration ou son initialisation.
+
+Par là, vous allez toujours finir par utiliser des pointeurs, même sans le savoir *[spoil : un tableau est un pointeur]*, etc.
+En résumé, les pointeurs sont un outil fondamental en C qui, utilisés correctement, permettent une manipulation efficace et flexible de la mémoire. Toutefois, ils requèrent une compréhension approfondie et une grande attention pour éviter les erreurs.

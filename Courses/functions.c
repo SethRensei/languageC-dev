@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 // Une fonction qui calcul la somme de deux entiers
-long int sum(int a, int b) {
+int sum(int a, int b) {
     return a + b;
 }
 
 // Le prototype de la procédure showMsg
-void showMsg(long int a);
+void showMsg(int a);
 
 /* 
 
@@ -34,6 +34,6 @@ int main() {
 }
 
 // Implémentation de la procédure showMsg
-void showMsg(long int a) {
+void showMsg(int a) {
     printf("La somme des deux nombres est : %d\n", a);
 }
